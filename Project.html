@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Aneshra's fitness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            right: 0;
+            position: fixed;
+            object-fit: cover;
+            z-index: -1;
+
+        }
+
+        .fa {
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .list {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+        }
+
+        .list2 {
+            margin: 0px 0px 0px 0px;
+            padding: 5px;
+            text-align: left;
+            background-color: rgba(146, 146, 153, 0);
+        }
+
+        ul {
+            overflow: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .list li {
+            word-spacing: normal;
+            list-style: none;
+            padding: 0px;
+            margin: 0px 10px 0px 10px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .list2 li {
+            word-spacing: normal;
+            list-style: none;
+            padding: 0px;
+            margin: 0px 19px 0px 5px;
+            display: inline-block;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .list2 li a {
+            color: white;
+        }
+
+        header {
+            margin: 0px;
+            padding: 0%;
+            text-align: justify;
+            height: 20%;
+        }
+
+        .search {
+            color: rgba(255, 255, 255, 0.668);
+            text-align: center;
+            padding: 0px 10px;
+            border-radius: 12px;
+            margin: 0px 50px 0px 0px;
+        }
+
+        .search input {
+            border-radius: 6px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.712);
+        }
+
+        .navbar {
+            text-align: right;
+        }
+        .logo h3 {
+
+            color: rgba(255, 255, 255, 0.777);
+            text-align: center;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0 auto; 
+        }
+
+        .logocenter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .logocenter ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .list li a:hover {
+            font-size: x-large;
+        }
+
+        .list2 li a:hover {
+            font-size: x-large;
+            color: rgb(87, 158, 212);
+        }
+
+        .container {
+            display: block;
+            text-align: center;
+            margin: 100px;
+            padding: 100px;
+            background-color: rgba(0, 0, 0, 0.552);
+            border-radius: 6px;
+            box-shadow: 0px 0px 100px rgba(19, 9, 97, 0.5);
+        }
+
+        .btn {
+            border-radius: 6px;
+            padding: 12px 24px;
+            border: 2px solid rgb(0, 0, 0);
+            overflow: hidden;
+            background: transparent;
+            position: relative;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+
+        }
+
+        .btn:hover span {
+            width: 100%;
+        }
+
+        span {
+            background-color: rgba(23, 126, 164, 0.771);
+            height: 100%;
+            width: 0;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            position: absolute;
+            transition: 0.5s;
+
+        }
+
+        .footer {
+            display: inline-block;
+            border: 2px double black;
+            background-attachment: inherit;
+            background-size: 100% 100%;
+            height: 300px;
+            width: 400px;
+            background-repeat: no-repeat;
+            color: white;
+            /* opacity: 0.7; */
+            opacity: 0.88;
+        }
+        .footer p
+        {
+            margin-top: 150px;
+        }
+        .footer hr{
+            padding: 0;
+            margin: 0;
+        }
+        .footer h2
+        {
+            padding: 0;
+            margin: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bolder;
+            color: #ffffff;
+        }
+        .logocenter > .logo
+        {
+            text-align: center;
+        }
+        .navbar > .logo
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="videogym.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div style="margin: 0px;  text-align:center ;">
+            <ul class="list">
+                <li style="margin-right: 20px"><a href="https://www.facebook.com" class="fa"
+                        style="color: rgba(255, 255, 255, 0.447);">&#xf09a;</a></li>
+                <li> <a href="https://www.twitter.com" class="fa" style="color: rgba(255, 255, 255, 0.447);"
+                        target="_blank">&#xf099;</a></li>
+                <li><a href="https://www.instagram.com/isha.nabeel03/" class="fa"
+                        style="color: rgba(255, 255, 255, 0.447);" target="_blank">&#xf16d;</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0P0aQreFs8w&list=RD0P0aQreFs8w&start_radio=1" class="fa"
+                        style="color: rgba(255, 255, 255, 0.447)" target="_blank">&#xf16a;</a>
+                </li>
+            </ul>
+            <hr style="opacity: 0.5; color: rgb(146, 146, 153); margin: 0%;">
+        </div>
+        <nav class="navbar">
+            <div class="logocenter">
+                <ul class="list2">
+                    <li><a href="Project.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="loginpage.html">Login In</a></li>
+                    <li style="margin: 0px;"><a href="https://api.whatsapp.com/send?phone=3094420539">Contact us</a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <img src="whitelogo.png" alt="Logo" width="100px" height="29px">
+                    <h3> FITNESS CLUB</h3>
+                </div>
+                <div class="search">
+                    <input type="search" name="search" id="search" placeholder="Search here">
+                    <label for="search">&#128269;</label>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h5 style="color: rgba(240, 248, 255, 0.76); margin: 0px;">Welcome to Fitness Club</h5>
+            <h2 style="color: rgba(240, 248, 255, 0.76); margin: 10px; ">Where your fitness <br> become your lifestyle
+            </h2>
+            <br>
+            <button class="btn" type="button"><span></span>Join Now </button>
+        </div>
+    </main>
+    <footer style="object-fit: cover; margin: 0px 0px 0px 0px; text-align: center;">
+        <div class="footer"style="background-image: url('black.jpg');">
+            <h2>Fitness and Health</h2>
+            <hr>
+            <p>fitness involve a balanced approach to well-being, regular physical activity, a nutritious diet and mental health care.</p>
+        </div>
+        <div class="footer"style="background-image: url('gymblack.jpg');">
+            <h2>Yoga</h2>
+            <hr>
+            <p>Yoga is a holistic practice that integrates physical postures, breath control, and meditation to enhance overall well-being.</p>
+        </div>
+        <div class="footer"   style="background-image: url('0_kq6kU6BBevJWyty8.jpg');">
+            <h2>GYM</h2>
+            <hr>
+            <p>The gym provides a structured environment for diverse forms of exercise aimed at improving physical fitness.</p>
+        </div><marquee behavior="activity" direction="right">Fuck u</marquee>
+        <div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

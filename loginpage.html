@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style type="text/css">
+        div{text-align: center; color: rgb(0, 0, 0);}
+        fieldset
+        {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .overlay
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        #video
+        {
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body bgcolor="#F2D2BD" >
+
+<!-- To add image  -->
+
+<div style="text-align:center" class="content">
+    <img src="Image2.png" alt="Logo" width="200">
+</div>
+
+<!-- To add styled text  -->
+
+<h2 style="text-align: center; color: rgb(0, 0, 0); font-family:'Times New Roman', Times, serif"> LOGIN PAGE</h2>
+
+<!-- Form to take info from user  -->
+
+<form action="backend.php">
+
+    <!-- to add name box --> 
+    <div class="content">
+        <label for="Name"> <strong>Name:</strong></label>
+         <input type="text" name="Myname" id="Name" placeholder="Username" style="width: 10%; border-width: 0cqmax; border-radius: 12px; padding: 12px 28px;" >
+    </div>  
+    <br>
+    <!-- To enetr email from user  -->
+    <div class="content">
+        <strong>Email:</strong> <input type="email" name="Myemail" placeholder="Example@mail.com" style="width: 10%; border-width: 0cqmax;border-radius: 12px; padding: 12px 28px; ">
+    </div>
+    <br>
+    <!-- To enetr password from user  -->
+    <div>
+        <strong>Password:</strong> <input type="password" name="mypass" placeholder="Password123" style="width: 10%; border-width: 0cqmax; border-radius: 12px; padding: 12px 28px;">
+    </div>
+    <br>
+    <!-- To take date input from user  -->
+    <div>
+        <strong>Date of Birth:</strong> <input type="date" name="todaydate" style="width: 10%; border-width: 0cqmax; padding: 6px 24px;font-size: large; border-radius: 12px;" >
+    </div>
+    <br>
+
+    <!-- To create a choice checkbox  -->
+    <div style="font-size: larger;"> 
+        <strong>Gender:</strong> Male <input type="radio" name="gender"> Female <input type="radio" name="gender">Others <input type="radio" name="gender">
+    </div>
+    <br>
+    <!-- To create a check box  -->
+    <div style="font-size: larger;">
+        <strong>Are u Human?:</strong> <input type="checkbox" name="elegbility">
+    </div>
+    <br>
+    <!-- To creat multi choices  -->
+    <div style="font-size: larger;">
+        <label for=Car><strong>City</strong></label>
+        <select name="Cars" id="Car" style="font-size: large; border-width: 0cqmax;">
+            <option value="Sialkot">Sialkot</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="gujrawala">gujrawala</option>
+        </select>
+    </div>
+    <br>
+    <div style="text-align: center; font-size: larger;">
+        <fieldset style="width:fit-content;">
+            <!-- To create a choice checkbox  -->
+            <legend style="text-align: center;"> What is your occupation ? </legend>
+            <strong>Occupation:</strong>  Job<input type="radio" name="gender"> Jobless <input type="radio" name="gender">
+        </fieldset>
+    </div>
+    <br>
+    <br>
+    <!-- To create a sumbit button  -->
+    <div>
+        <button style="background-color: #6F4E37; font-size: large; width: 10%; color: aliceblue; border-width: 0cqmax; border-radius: 12px; padding: 6px 24px;" type="submit">Login</button>
+        &nbsp; &nbsp;
+        <button style="background-color: #6F4E37; font-size: large; width: 10%; color: aliceblue; border-width: 0cqmax; border-radius: 12px; padding: 6px 24px;" type="reset">Reset</button>
+    </div>
+</form>  
+<footer style="background-color: rgb(4, 4, 4); color: aliceblue; bottom: 0; left: 0;">
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    Copyright &copy; Belong to Isha Nabeel the amazing Coder &copy;
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    </p>
+</footer>
+</body>
+</html>
